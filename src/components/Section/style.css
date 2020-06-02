@@ -1,0 +1,74 @@
+.hero {
+    height:  1300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: honeydew;
+    border: rgba(20, 72, 151, 0.2) dotted 10px;
+  }
+  
+  .hero::after {
+    content: "";
+    display: block;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: gray;
+  }
+  
+  .hero * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1, .hero h2 {
+    font-family: 'Chelsea Market', cursive;
+    /* margin: 10px; */
+  }
+
+  .hero1 {
+    height: 1400px;
+  }
+
+  .hero2 {
+    height: fit-content;
+  }
+  
+  .hero h1 {
+    font-size: 80px;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  @media only screen and (max-width: 375px) {
+
+    .hero h1 {
+      font-size: 20px;
+    }
+
+}
+
+.hero0 {
+  background-color: rgba(255, 89, 89, 0.85);
+}
+
+.second {
+  color: rgba(0, 58, 111, 1.0);
+}
+
+.third {
+  color: rgb(228, 212, 121);
+}
+
+
+
+
+
