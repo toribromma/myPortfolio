@@ -35,8 +35,16 @@
   }
 
   .hero2 {
-    height: fit-content;
+    height: 1250px
   }
+
+  @media only screen and (max-width: 375px) {
+
+    .hero2 {
+      height: fit-content
+    }
+
+}
   
   .hero h1 {
     font-size: 80px;
@@ -65,6 +73,8 @@
 }
 
 .third {
+  padding: 30px;
+  margin-bottom: 50px;
   color: rgb(228, 212, 121);
 }
 

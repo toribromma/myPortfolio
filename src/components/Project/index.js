@@ -1,6 +1,7 @@
 import React from "react";
 import ListItem from "../ListItem";
 import List from "../List";
+import "./style.css"
 
 
 function Project(props) {
@@ -8,7 +9,7 @@ function Project(props) {
 
             <List>
               <ListItem>
-              <h4 className="text-light">{props.title}</h4>
+              <p className="title">{props.title}</p>
               </ListItem>
               <ListItem>
               <button className="btn"><a rel="noopener noreferrer" target="_blank" href={props.linkDeployed}>Deployed Version</a></button>

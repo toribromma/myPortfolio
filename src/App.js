@@ -17,36 +17,39 @@ import projectImage3 from "./images/wmp.png";
 import projectImage4 from "./images/employeeTracker.gif";
 import projectImage5 from "./images/budget.png";
 import projectImage6 from "./images/societe.png"
-
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 var ReactRotatingText = require('react-rotating-text');
-var Scroll = require('react-scroll');
-var Events = Scroll.Events;
+
+
 
 function App() {
 
   const [scrollPosition, setScrollPosition] = useState(0);
+
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
+
 };
 
 useEffect(() => {
+
     window.addEventListener('scroll', handleScroll, { passive: true });
 
     return () => {
         window.removeEventListener('scroll', handleScroll);
     };
 
+    
 
 }, []);
 
 
-if(scrollPosition > 1100) {
-  Events.scrollEvent.register('begin', function(to, element) {
-    console.log("begin", to, element);
-  });
+if(scrollPosition < 1100) {
+  // scroll.scrollTo(1101)
+ 
 }
-  
+
   
   return (
     <div className="App">
@@ -164,7 +167,7 @@ if(scrollPosition > 1100) {
                       <Project
                       linkGitHub="https://github.com/toritheterrible/Online-Offline-Budget-Trackers" 
                       linkDeployed="https://budgettrackeroffline90.herokuapp.com/" 
-                      title="PWA Offline-Online Budget Tracker"
+                      title="PWA Budget Tracker"
                       />
                     </Card>
                     </Col>
@@ -173,7 +176,7 @@ if(scrollPosition > 1100) {
                       <Project
                       linkGitHub="https://github.com/BrianHdz/Project-3" 
                       linkDeployed="https://polar-brushlands-16053.herokuapp.com/" 
-                      title="Media Aggregator entitled Societe"
+                      title="Media Aggregator"
                       />
                     </Card>
                     </Col>
