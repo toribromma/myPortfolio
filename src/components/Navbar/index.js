@@ -11,7 +11,7 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <li
+          <li className="nav-item"
             // src={logo}
             className="nav-logo"
             alt="Logo"

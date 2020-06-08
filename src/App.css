@@ -37,9 +37,9 @@
   }
 }
 
-.fab {
+.fab, .fas {
   padding: 10px;
-  margin-top: 200px;
+  margin: 20px;
 }
 
 .react-rotating-text-cursor {
@@ -58,8 +58,12 @@
   }
 }
 
-i {
-  color: rgba(0, 58, 111, 0.8);
+.icon1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon2 {
+  color: rgba(255, 255, 255, 1);
 }
 
 i:hover {
@@ -68,11 +72,17 @@ i:hover {
 
 h5 {
   padding-top: 50px;
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Merriweather', serif;
   color: white;
   font-size: 40px;
 }
 
 a:hover {
   color: white;
+}
+
+.language {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bold;
 }

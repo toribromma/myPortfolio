@@ -1,5 +1,5 @@
 .nav {
-    background-color: whitesmoke;
+    background-color: rgba(41, 41, 41, 0.842);
     position: sticky;
     top: 0px;
     width: 100%;
@@ -7,11 +7,13 @@
     z-index: 1000;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
     font-family: 'Chelsea Market', cursive;
+    font-weight: 900;
   }
   
   .nav-logo {
     height: 60px;
     width: 60px;
+    color: white;
   }
   
   .nav-logo:hover {
@@ -32,11 +34,11 @@
     display: inline;
     margin-left: 2rem;
     padding: 30px;
-    color: #333;
+    color: rgb(255, 255, 255);
   }
   
   .nav-item:hover {
-    color: black;
+    color: white;
     cursor: pointer;
   }
 

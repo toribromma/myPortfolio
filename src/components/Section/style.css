@@ -5,7 +5,7 @@
     background-position: center;
     position: relative;
     background-color: honeydew;
-    border: rgba(20, 72, 151, 0.2) dotted 10px;
+    border: rgba(17, 17, 17, 0.397) solid 10px;
   }
   
   .hero::after {
@@ -25,13 +25,8 @@
     z-index: 2;
   }
   
-  .hero h1, .hero h2 {
-    font-family: 'Chelsea Market', cursive;
-    /* margin: 10px; */
-  }
-
   .hero1 {
-    height: 1400px;
+    height: 1250px
   }
 
   .hero2 {
@@ -54,6 +49,7 @@
 
   h2 {
     font-size: 40px;
+    padding-top: 20px;
   }
 
   @media only screen and (max-width: 375px) {
@@ -62,23 +58,33 @@
       font-size: 20px;
     }
 
+    h2 {
+      font-size: 10px;
+    }
+
+    .fab .fa {
+      size: 20px;
+    }
+
 }
 
 .hero0 {
-  background-color: rgba(255, 89, 89, 0.85);
+  background-color: rgba(245, 68, 68, 1);
 }
 
 .second {
   color: rgba(0, 58, 111, 1.0);
+  color: black;
+  margin-bottom: 150px;
+  font-family: Chelsea Market;
 }
 
 .third {
   padding: 30px;
   margin-bottom: 50px;
-  color: rgb(228, 212, 121);
+  color: rgb(228, 235, 135);
+  color: white;
+  font-family: Chelsea Market;
 }
-
-
-
 
 
