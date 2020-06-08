@@ -73,7 +73,7 @@ if(scrollPosition < 1100) {
               />
             </h1>
             
-            <h2 className="m-5"><a rel="noopener noreferrer"  href="https://docs.google.com/document/d/1Q0jXdWVesqziTQG1LJKpO_Vp0rj5ddrC/edit" target="_blank">PDF link to my Resume</a></h2>
+            <h2 className="m-5 resume"><a rel="noopener noreferrer"  href="https://docs.google.com/document/d/1Q0jXdWVesqziTQG1LJKpO_Vp0rj5ddrC/edit" target="_blank">PDF link to my Resume</a></h2>
             {/* <h1><a rel="noopener noreferrer"  href="https://docs.google.com/document/d/1Q0jXdWVesqziTQG1LJKpO_Vp0rj5ddrC/edit" target="_blank"><i class="far fa-file-pdf"></i></a></h1> */}
 
             <div className="m-5">
@@ -103,7 +103,7 @@ if(scrollPosition < 1100) {
             alpha={0.8}
             id="section1"
             >
-            <h1 className="second">My Skills</h1>
+            <h1 className="second">Skills</h1>
             <Row>
 
             <Col size="md-6">
@@ -137,7 +137,7 @@ if(scrollPosition < 1100) {
             alpha={0.8}
             id="section2"
             >  
-            <h1 className="third">My Projects</h1>
+            <h1 className="third">Projects</h1>
             
                 <Row>
                   <Col size="xl-3"/>

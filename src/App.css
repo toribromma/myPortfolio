@@ -83,6 +83,9 @@ a:hover {
 
 .language {
   font-size: 20px;
-  padding-top: 10px;
   font-weight: bold;
+}
+
+.resume {
+  font-family: 'Dancing Script', cursive;
 }

@@ -6,8 +6,9 @@
     height: 80px;
     z-index: 1000;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
+    border: black solid 2px;
   }
   
   .nav-logo {
