@@ -140,8 +140,7 @@ if(scrollPosition < 1100) {
             <h1 className="third">Projects</h1>
             
                 <Row>
-                  <Col size="xl-3"/>
-                  <Col size="xl-2 md-6">
+                  <Col size="xl-4 md-6">
                     <Card projectImage={projectImage}>
                       <Project
                         linkGitHub="https://github.com/toritheterrible/project2" 
@@ -150,7 +149,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                   </Col>
-                    <Col size="xl-2 md-6">
+                    <Col size="xl-4 md-6">
                     <Card projectImage={projectImage2}>
                       <Project
                         linkGitHub="https://github.com/toritheterrible/codingQuiz" 
@@ -159,7 +158,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                   </Col>
-                    <Col size="xl-2 md-12">
+                    <Col size="xl-4 md-12">
                     <Card projectImage={projectImage3}>
                       <Project
                       linkGitHub="https://github.com/hollyisaredhead/Weekly-meal-planner" 
@@ -172,8 +171,7 @@ if(scrollPosition < 1100) {
                 </Row>
 
                 <Row>
-                  <Col size="xl-3"/>
-                  <Col size="xl-2 md-6">
+                  <Col size="xl-4 md-6">
                     <Card projectImage={projectImage4}>
                       <Project
                       linkGitHub="https://github.com/toritheterrible/employeeTracker" 
@@ -182,7 +180,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                     </Col>
-                    <Col size="xl-2 md-6">
+                    <Col size="xl-4 md-6">
                     <Card projectImage={projectImage5}>
                       <Project
                       linkGitHub="https://github.com/toritheterrible/Online-Offline-Budget-Trackers" 
@@ -191,7 +189,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                     </Col>
-                    <Col size="xl-2 md-4">
+                    <Col size="xl-4 md-6">
                     <Card projectImage={projectImage6}>
                       <Project
                       linkGitHub="https://github.com/BrianHdz/Project-3" 
