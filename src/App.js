@@ -203,9 +203,9 @@ if(scrollPosition < 1100) {
                     </Col>
                 </Row>
             </Section>
-            <Footer>
+            {/* <Footer>
               Tori Bromma
-            </Footer>
+            </Footer> */}
             </Router>
 
     </div>
