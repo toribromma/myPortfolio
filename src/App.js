@@ -16,6 +16,7 @@ import projectImage4 from "./images/employeeTracker.gif";
 import projectImage5 from "./images/budget.png";
 import projectImage6 from "./images/societe.png";
 import background1 from "./images/background1.jpg";
+import Footer from './components/Footer';
 // import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 var ReactRotatingText = require('react-rotating-text');
 
@@ -69,7 +70,7 @@ if(scrollPosition < 1100) {
               <ReactRotatingText 
               color={"white"}
               items={['Tori Bromma', 'Full-Stack Web Developer', 'Welcome to my Page']} 
-
+              className="rotating-size"
               />
             </h1>
             
@@ -124,7 +125,7 @@ if(scrollPosition < 1100) {
             </Col>
             <Col size="md-6">
             <i className="fas fa-database fa-7x"></i>
-            <div className="language">MySQl and Mongo</div>
+            <div className="language">MySQL and Mongo</div>
             </Col>
            </Row>
             </Section>
@@ -140,7 +141,8 @@ if(scrollPosition < 1100) {
             <h1 className="third">Projects</h1>
             
                 <Row>
-                  <Col size="xl-4 md-6">
+                  <Col size="xl-2 md-0"/>
+                  <Col size="xl-3 md-6">
                     <Card projectImage={projectImage}>
                       <Project
                         linkGitHub="https://github.com/toritheterrible/project2" 
@@ -149,7 +151,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                   </Col>
-                    <Col size="xl-4 md-6">
+                    <Col size="xl-3 md-6">
                     <Card projectImage={projectImage2}>
                       <Project
                         linkGitHub="https://github.com/toritheterrible/codingQuiz" 
@@ -158,7 +160,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                   </Col>
-                    <Col size="xl-4 md-12">
+                    <Col size="xl-3 md-12">
                     <Card projectImage={projectImage3}>
                       <Project
                       linkGitHub="https://github.com/hollyisaredhead/Weekly-meal-planner" 
@@ -171,7 +173,8 @@ if(scrollPosition < 1100) {
                 </Row>
 
                 <Row>
-                  <Col size="xl-4 md-6">
+                <Col size="xl-2 md-0"/>
+                  <Col size="xl-3 md-6">
                     <Card projectImage={projectImage4}>
                       <Project
                       linkGitHub="https://github.com/toritheterrible/employeeTracker" 
@@ -180,7 +183,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                     </Col>
-                    <Col size="xl-4 md-6">
+                    <Col size="xl-3 md-6">
                     <Card projectImage={projectImage5}>
                       <Project
                       linkGitHub="https://github.com/toritheterrible/Online-Offline-Budget-Trackers" 
@@ -189,7 +192,7 @@ if(scrollPosition < 1100) {
                       />
                     </Card>
                     </Col>
-                    <Col size="xl-4 md-6">
+                    <Col size="xl-3 md-6">
                     <Card projectImage={projectImage6}>
                       <Project
                       linkGitHub="https://github.com/BrianHdz/Project-3" 
@@ -200,6 +203,9 @@ if(scrollPosition < 1100) {
                     </Col>
                 </Row>
             </Section>
+            <Footer>
+              Tori Bromma
+            </Footer>
             </Router>
 
     </div>

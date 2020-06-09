@@ -84,8 +84,26 @@ a:hover {
 .language {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: -20px;
 }
 
 .resume {
   font-family: 'Dancing Script', cursive;
 }
+
+@media only screen and (max-width: 996px) {
+
+  .rotating-size {
+    font-size: 35px
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .rotating-size {
+    font-size: 25px
+  }
+
+}
+
