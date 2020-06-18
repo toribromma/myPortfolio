@@ -130,6 +130,25 @@ if(scrollPosition < 1100) {
            </Row>
             </Section>
 
+            <Section 
+            class="hero hero1"
+            red={65} 
+            green={200} 
+            blue={148} 
+            alpha={0.8}
+            id="section3"
+            >
+            <h1 className="second">About Me</h1>
+            <Row>
+
+            <Col size="md-12">
+            <p className="container">
+            Full-Stack Web Developer with a background in Political Science and Social Services intent on creating streamlined web applications with creative vigor and visual appeal. I recently earned a certificate in Full-Stack Web Development from the University of California, Irvine. Skills learned include HTML, CSS, Javascript, React, Express, Node, and MongoDB. Focused on Object-Oriented Programming and agile development. My goals are to become more advanced in React and become better at whiteboarding. I recently worked on a MERN project in a  group of 5 designed to be one spot for all media aggregators current consumers use on a daily basis. I was responsible for user authentication with Spotify and UI/UX design. I am fascinated by the intricacies of coding and enjoy solving problems. My artistic side is fulfilled by the constant engagement coding has to offer. I hope to work for a company that entices my inner creativity.
+            </p>
+            </Col>
+            </Row>
+            </Section>
+
             <Section
             class="hero hero2"
             red={85} 
